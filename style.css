@@ -1,12 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 body {
     height: 100vh;
-    display: flex;
     background-color: black;
 }
 
@@ -14,15 +13,25 @@ body {
     color: white;
     font-size: 42px;
     text-align: center;
+    display: wrap;
+    padding: 20px;
 }
 
 .resetButton{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.buttonStyle{
+    font-size: 24px;
     color: white;
+    padding: 20px;
+    background-color: rgb(58, 53, 53);
 }
 
 #cardboard{
-    width: 640px;
-    height: 640px;
+    width: 740px;
+    height: 740px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

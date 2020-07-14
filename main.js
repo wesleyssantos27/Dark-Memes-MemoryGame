@@ -1,11 +1,17 @@
 const cardBoard = document.querySelector("#cardboard");
 const images = [
-    'angular.svg',
+    /**'angular.svg',
     'aurelia.svg',
     'backbone.svg',
     'ember.svg',
     'react.svg',
-    'vue.svg'
+    'vue.svg'**/
+    '1.png',
+    '2.png',
+    '3.png',
+    '4.png',
+    '5.png',
+    '6.png'
 ]
 
 let cardHTML = '';
@@ -14,7 +20,7 @@ images.forEach(img => {
     cardHTML += `
         <div class="memory-card" data-card="${img}">
             <img class="front-face" src="dark img/${img}">
-            <img class="back-face" src="dark img/js-badge.svg">
+            <img class="back-face" src="dark img/capa2.png">
         </div>
     `;
 });

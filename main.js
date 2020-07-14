@@ -20,7 +20,7 @@ images.forEach(img => {
     cardHTML += `
         <div class="memory-card" data-card="${img}">
             <img class="front-face" src="dark img/${img}">
-            <img class="back-face" src="dark img/capa2.png">
+            <img class="back-face" src="dark img/capa1.png">
         </div>
     `;
 });
